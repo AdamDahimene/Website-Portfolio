@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Angkor&family=Dancing+Script:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Slackside+One&family=Whisper&display=swap');
+
+.container{
+    margin: 2rem;
+    min-height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'skills'
+    'education';
+    gap: 0.7rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+#skills {
+    grid-area: skills;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 150%;
+    text-decoration: underline;
+    font-family: "Acme", sans-serif;
+    text-align: center;
+}
+
+#education {
+    grid-area: education;
+    padding: 0.5rem;
+}
+
+#projects {
+    grid-area: projects;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: underline;
+}

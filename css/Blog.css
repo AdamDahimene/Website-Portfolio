@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to bottom right, white, grey);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h2 {
+    font-size: 300%;
+    font-weight: bold;
+    color: #bc4123;
+    text-align: center;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-left: 2rem;
+}
+
+#time {
+    text-align: right;
+}
+
+section {
+    margin: 5rem;
+    margin-top: 1rem;
+
+}
+
+hr {
+    border: 1px solid silver;
+}
+
+.month {
+    text-align: right;
+    margin-right: 3rem;
+}

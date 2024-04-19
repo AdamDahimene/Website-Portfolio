@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Dancing+Script:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Slackside+One&family=Whisper&display=swap');
+body {
+    background-image: url(../img/background2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #114469;
+}
+
+h2 {
+    text-align: center;
+    color: #47F188;
+    font-size: 300%;
+    margin-top: 5%;
+    font-family: "Angkor", serif;    
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#Login {
+    color: #47F188;
+    font-size: 150%;
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+#Login:hover {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+#Login:active {
+    box-shadow: none;
+}
+
+div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+img {
+    width: 5%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    filter:brightness(20%);
+}
+
+img:hover {
+    filter:brightness(1);
+}
+
+section {
+    text-align: center;
+    margin-top: 10%;
+    gap: 2rem;
+}
